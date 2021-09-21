@@ -1,0 +1,42 @@
+.center{
+	text-align: center;
+}
+
+#titulo1 {
+	font-size: 500%;
+}
+#titulo2{
+	font-size: 150%;
+}
+
+body{
+	background-color: #e8f5e9;
+}
+
+p {
+	text-align: justify;
+}
+
+.flow-text{
+	font-size: 125%;
+	color: black;
+}
+
+#jogo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footer{
+	margin-top: 10px;
+}
+
+.div1
+
+{
+
+height: 100px;
+
+weight:100px;
+
+}

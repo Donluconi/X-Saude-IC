@@ -1,0 +1,100 @@
+/*========== RESET ==========*/
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6{font-family: 'Lato', sans-serif; font-weight: 400;}
+p{font-family: 'Open Sans', sans-serif; font-weight: 400;}
+body{background-color: #f5f5f5}
+a{text-decoration: none; color: #BFC8FF}
+ul{list-style: none}
+img{max-width: 100%}
+/*========== CHILDS ELEMENTS ==========*/
+.fst-chd{margin-top: 7%;}
+/*========== BANNERS ==========*/
+/* BANNER : for introduce a new topic with paralallax effect */
+.banner{width: 100%; height: 100em; float: left; text-align: center; padding: 5%; background: repeat fixed; clear: both;}
+.banner-title{width: 100%; padding: 3%; margin-top: 20%;}
+.banner-title h2{font-size: 2em; font-weight: 700;}
+.banner-title h3{font-size: 1.2em; margin-top: 5%; margin-bottom: 4%;}
+/*========== FRAMES ==========*/
+/* DEFAULT FRAME : for divs  */
+.frame{width: 100%; float: left; text-align: center; padding: 5%;}
+.frame h2{font-size: 2.2em; font-weight: 700; margin-top: 6%;}
+.frame p{font-size: 1.2em; text-align: justify; margin-top: 6%;}
+
+/* PICTURE FRAME : for galleries */
+.pict-frame{width: 100%; float: left; padding: 3%; text-align: center; margin: 0 auto;}
+.pict-frame h3{font-size: 1.5em; font-weight: 700; margin-top: 5%;}
+.pict-frame p{text-align: justify; padding: 3% 10%;}
+.pict-frame img{width: 70%;}
+
+/* BUTTONS FRAME : for a collection of buttons */
+.btn-frame{width: 100%; clear: left; padding: 3%;}
+/* BUTTONS */
+.btn{width: 100%; font-size: 1.5em; text-align: center; cursor: pointer; padding: 5%; margin: 3% auto; float: left;}
+.btn-headerindex{width: 100%; font-size: 1.5em; text-align: center; cursor: pointer; padding: 4%; margin-top: 3%; float: left;}
+.btn-headerindex:hover{opacity: 0.6; transition-delay: 0.5s; transition: opacity 1.5s;}
+
+/* FORM FRAME : for a form */
+.form-frame{width: 100%; float: left; text-align: center; padding: 7%;}
+.form-frame h2{font-size: 1.3em; font-weight: 700;}
+.form-frame h3{margin: 2% auto; width: 90%;}
+.form-frame form{margin-top: 2%;}
+.form-frame input[type="text"]{border-radius: 7px; width: 100%; margin-top: 2%; border: 1px solid rgba(255,255,255, 0.3); padding: 4%; font-size: 1.1em;}
+.form-frame input[type="email"]{border-radius: 7px; width: 100%; margin-top: 2%; border: 1px solid rgba(255,255,255, 0.3); padding: 4%; font-size: 1.1em;}
+::-webkit-input-placeholder {color: gray;}
+:-moz-placeholder {color: gray;}
+::-moz-placeholder {color: gray;}
+:-ms-input-placeholder {color: gray;}
+
+/* FORM FRAME : for short/long paragraphs */
+.form-frame input[type="submit"]{border-radius: 7px; width: 100%; padding: 4%; cursor: pointer; margin-top: 2%; font-size: 1.1em}
+.text-frame{width: 95%; padding: 2%; margin: 0 auto;}
+.text-frame h4{font-size: 1.5em; font-weight: 700; margin-top: 5%; text-align: center;}
+.text-frame p{text-align: justify; text-indent: 1.4em; margin-top: 4%;}
+
+/* FORM LIST : for short/long list to show in a table */
+.frame-list{width: 100%; float: left; text-align: center;}
+.apoiador{text-align: center; margin: 5% auto;}
+.apoiador table{margin: 0 auto;}
+.apoiador table td{padding: 10%; font-size: 1.2em;}
+/* FOOTER FRAME : for footer with links and copyright */
+.footer-frame{width: 100%; float: left; text-align: center; padding: 5%;}
+/*========== BACKGROUNDS ==========*/
+.bg-white{background: #f4f4f4;}.bg-black{background: #141414;}.bg-blkblue{background:#191919;}.bg-ltgray{background: #a2a2a2;}.bg-gray{background: #272727;}.bg-dkgray{background: #494949;}.bg-ltorange{background: #fda53e;}.bg-orange{background: #ff9000;}.bg-dkorange{background: #da6709;}.bg-ltyellow{background: #f8e64b;}.bg-yellow{background: #ebd40a;}.bg-dkyellow{background: #ccb908;}.bg-ltblue{background: #7881f6;}.bg-blue{background: #3c45b7;}.bg-dkblue{background: #1924b0;}.bg-ltcyan{background: #7ffbfa;}.bg-cyan{background: #29d3d1}.bg-dkcyan{background: #059795;}.bg-ltpurple{background: #b479f0}.bg-purple{background: #7346a3;}.bg-dkpurple{background: #553874;}.bg-ltgreen{background: #87ff7b}.bg-green{background: #50cd44}.bg-dkgreen{background: #4b8a44}.bg-ltred{ background: #f95858;}.bg-red{background: #e23636;}.bg-dkred{background: #952222;}.bg-ltpink{background: #d25aaf}.bg-pink{background: #ff8bdd;}.bg-dkpink{background: #a8358e;}.bg-ltmagento{background: #fd3d73;}.bg-magento{background: #d33965;}.bg-dkmagento{background: #bb204b;}
+/*========== FONT COLORS ==========*/
+.ft-white{color: #f4f4f4;}.ft-black{color: #141414;}.ft-blkblue{color:#161E21;}.ft-ltgray{color: #a2a2a2;}.ft-gray{color: #666666;}.ft-dkgray{color: #272727;}.ft-ltorange{color: #fda53e;}.ft-orange{color: #ff9000;}.ft-dkorange{color: #da6709;}.ft-ltyellow{color: #f8e64b;}.ft-yellow{color: #ebd40a;}.ft-dkyellow{color: #ccb908;}.ft-ltblue{color: #7881f6;}.ft-blue{color: #fff;}.ft-dkblue{color: #1924b0;}.ft-ltcyan{color: #7ffbfa;}.ft-cyan{color: #29d3d1}.ft-dkcyan{color: #059795;}.ft-ltpurple{color: #b479f0}.ft-purple{color: #7346a3;}.ft-dkpurple{color: #553874;}.ft-ltgreen{color: #87ff7b}.ft-green{color: #50cd44}.ft-dkgreen{color: #4b8a44}.ft-ltred{ color: #f95858;}.ft-red{color: #e23636;}.ft-dkred{color: #952222;}.ft-ltpink{color: #d25aaf}.ft-pink{color: #ff8bdd;}.ft-dkpink{color: #a8358e;}.ft-ltmagento{color: #fd3d73;}.ft-magento{color: #d33965;}.ft-dkmagento{color: #bb204b;}
+/*========== FONT  ==========*/
+.text-highlited1{text-decoration: underline; }
+.text-highlited2{background-color: rgba(0,0,0,0.5);}
+/*========== OPACITY ==========*/
+.op00{opacity: 0.0;}.op01{opacity: 0.1;}.op02{opacity: 0.2;}.op03{opacity: 0.3;}.op04{opacity: 0.4;}.op05{opacity: 0.5;}.op06{opacity: 0.6;}.op07{opacity: 0.7;}.op08{opacity: 0.8;}.op09{opacity: 0.9;}.op10{opacity: 1.0;}
+/*========== ESTRUTURA ==========*/
+/* CABEÇALHO */
+.cabecalho{width: 100%; float: left; text-align: center; background: #6D75CF;} 
+ .logo{width: 100%; height: 200px; float:left; background: url("../img/blueprint.JPEG"); background-size: 100%; font-size: 0;} 
+
+/* BOTÕES DO MENU */
+.btn-menu{width: 56px; height: 56px; float: right; text-align: center; cursor: pointer; background: rgba(66,66,66,.3); position: absolute; right: 1px; top: 80px;}
+.btn-menu:hover{background: rgba(60,96,183, 0.8); color: rgb(0,0,0); transition: background 0.5s; transition: color 0.3s;}
+.btn-close{width: 56px; height: 56px; float: right; text-align: center; cursor: pointer; background: rgba(66,66,66,.3); margin-top: 5%; margin-right: 5%;}
+.btn-close:hover{background: rgba(60,96,183, 0.8); color: rgb(255,255,255);}
+
+/* MENU */
+.menu{display: none; width: 100%; height: 100%; position: fixed; top:0; left: 0; background-color: rgba(0,0,0, 0.96);}
+.menu ul{width: 100%; float: left; text-align: center; margin-top: 10%;}
+.menu li{padding: 1.5%;}
+.menu li a{font-size: 2em; padding: 1.5% 3%;}
+.menu li a:hover{background: #0080ff; color: #000000; transition-delay: 0.8s; transition: 1.4s}
+
+/* GAME */
+iframe{width: 100%; height: 550px;}
+
+/* FOOTER/RODAPÉ */
+.social-icons a{font-size: 1.5em; color: rgba(255,255,255, 0.4); margin-left: 3%}
+.social-icons a:last-child{margin-right: 0;}
+.social-icons a:hover{color: rgb(255,255,255); transition-delay: 1.0s; transition: color 0.5s;}
+.copyright{margin-top: 2%; color: rgba(255,255,255, 0.7); font-size: 1.2em;}
+.coderight{margin-top: 2%; font-size: 0.7em; color: rgba(255,255,255, 0.7)}
+
+/*EXCEPTIONS */
+.banner-text{width: 100%; height: 100%; float: left; text-align: center; padding: 5%; background: repeat fixed; clear: both;}
+.team-img{border-radius: 50%; filter: gray; /* IE6-9 */; filter: grayscale(0.6); /* Microsoft Edge and Firefox 35+ */; -webkit-filter: grayscale(0.6); /* Google Chrome, Safari 6+ & Opera 15+ */}
