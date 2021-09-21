@@ -1,2 +1,2 @@
 # X-Saude-IC
-Protótipo de objeto de aprendizagem para auxiliar no Combate a Obesidade Infantil. Trabalho apresentado em congressos de iniciação científica.
+Projeto de iniciação científica que consiste em um protótipo de um objeto de aprendizagem para auxiliar no combate a obesidade infantil. Projeto apresentado em 3 congressos.
