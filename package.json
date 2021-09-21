@@ -1,0 +1,19 @@
+{
+  "name": "xsaude",
+  "version": "1.0.0",
+  "description": "prototipo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donluconi/X-Saude-IC.git"
+  },
+  "author": "Donluconi <gabriel_luconi@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Donluconi/X-Saude-IC/issues"
+  },
+  "homepage": "https://github.com/Donluconi/X-Saude-IC#readme"
+}
