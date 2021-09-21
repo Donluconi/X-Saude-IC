@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Donluconi/X-Saude-IC/issues"
   },
-  "homepage": "https://github.com/Donluconi/X-Saude-IC#readme"
+  "homepage": "https://github.com/Donluconi/X-Saude-IC#readme",
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
 }
